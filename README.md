@@ -22,7 +22,7 @@ Nakładanie Tekstu / Napisów: Generowanie plików .ass / .srt i renderowanie ic
 
 Łączenie Ścieżek (Audio Muxing): Podstawowe miksowanie wygenerowanego lektora z tłem wideo i muzyką podkładową.
 
-🔴 2. Co obecnie NIE działa / wymaga poprawki
+  2. Co obecnie NIE działa / wymaga poprawki
 Błędy Synchronizacji przy Renderowaniu FFmpeg:
 
 Przy niestandardowych klatkach lub zmiennej długości nakładanych audio z ElevenLabs/EdgeTTS, FFmpeg potrafi wyrzucić błąd przesunięcia czasowego (desynchronizacja audio i wideo).
@@ -39,7 +39,7 @@ Brak Dynamicznego Podglądu na Żywo (Real-Time Preview):
 
 Oś czasu w JavaScript nie renderuje natychmiastowego podglądu klatki wideo po przesunięciu suwaka – podgląd wymaga ponownego przeładowania wyrenderowanego fragmentu.
 
-🛠️ 3. Czego brakuje do produkcyjnej wersji (Roadmap / Todo)
+  3. Czego brakuje do produkcyjnej wersji (Roadmap / Todo)
 Na podstawie założeń projektowych, do pełnej sprawności aplikacji brakuje następujących elementów:
 
 Kolejkowanie Zadań (Background Jobs):
